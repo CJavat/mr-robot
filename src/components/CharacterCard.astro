@@ -1,0 +1,65 @@
+---
+interface Props {
+  name: string;
+  role: string;
+  image: string;
+  social: Social;
+}
+
+interface Social {
+  twitter: string | null;
+  facebook: string | null;
+  instagram: string | null;
+  linkedin: string | null;
+}
+
+const { name, role, image, social } = Astro.props;
+---
+
+<div class="flex md:flex-col justify-start items-center gap-3">
+  <img src={image} alt={name} class="rounded-md w-32 h-32 object-cover" />
+
+  <div class="flex flex-col gap-2">
+    <p class="font-bold">
+      Nombre: <span class="font-normal text-red-100">{name}</span>
+    </p>
+
+    <p class="font-bold">
+      Personaje: <span class="font-normal text-red-100">{role}</span>
+    </p>
+
+    <div>
+      <p class="font-bold mb-2">Redes Sociales</p>
+
+      <ul class="flex space-x-4">
+        {
+          Object.values(social).every((value) => !value) ? (
+            <p class="uppercase font-bold text-red-300">Sin redes sociales</p>
+          ) : (
+            <ul class="flex justify-evenly items-center gap-2">
+              {Object.entries(social).map(
+                ([key, value]) =>
+                  value && (
+                    <li>
+                      <a
+                        href={`https://${key}.com/${value}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-blue-500"
+                      >
+                        <img
+                          src={`/src/assets/social-icons/${key}.svg`}
+                          alt={value}
+                          class="w-7 h-7"
+                        />
+                      </a>
+                    </li>
+                  )
+              )}
+            </ul>
+          )
+        }
+      </ul>
+    </div>
+  </div>
+</div>

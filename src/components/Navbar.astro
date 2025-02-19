@@ -1,0 +1,14 @@
+---
+import { Image } from "astro:assets";
+import mrRobotLogo from "../assets/MR-ROBOT_logo.svg";
+---
+
+<nav class="px-3 py-2 flex justify-between items-center">
+  <Image src={mrRobotLogo} alt="Logo MR. ROBOT" class="w-52" />
+
+  <ul class="flex space-x-2">
+    <li class="hover:text-red-500"><a href="/">Inicio</a></li>
+    <li class="hover:text-red-500"><a href="/seasons">Temporadas</a></li>
+    <li class="hover:text-red-500"><a href="/gallery">Galería</a></li>
+  </ul>
+</nav>

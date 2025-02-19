@@ -1,0 +1,22 @@
+---
+import CharacterCard from "./CharacterCard.astro";
+
+import characters from "../data/characters.json";
+
+const { main, recurring } = characters;
+---
+
+<div class="bg-gradient-to-b from-[#C60323] via-[#4D000D] to-[#7a0114]">
+  <h2 class="text-2xl font-bold text-white text-center">
+    Personajes Principales
+  </h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+    {main.map(({ id, ...character }) => <CharacterCard {...character} />)}
+  </div>
+  <h2 class="text-2xl font-bold text-white text-center">
+    Personajes Secundarios
+  </h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+    {recurring.map(({ id, ...character }) => <CharacterCard {...character} />)}
+  </div>
+</div>

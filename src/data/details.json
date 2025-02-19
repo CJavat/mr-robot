@@ -1,0 +1,135 @@
+{
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Mr._Robot_Logo.svg",
+  "name": "Mr. Robot",
+  "description": "Un joven programador es reclutado por una misteriosa empresa para participar en su último experimento, el que finalmente salvará al mundo.",
+  "created_by": "Sam Esmail",
+  "genres": ["Drama", "Sci-Fi"],
+  "starring": [
+    {
+      "name": "Rami Malek",
+      "role": "Eliot Alderson",
+      "image": "/src/assets/characters/Rami_Malek.jpg",
+      "social": {
+        "twitter": "https://twitter.com/ItsRamiMalek",
+        "facebook": "RamiMalek",
+        "instagram": "https://www.instagram.com/ramiimalek",
+        "linkedin": "https://ae.linkedin.com/in/rami-malek-19527318b/es"
+      }
+    },
+    {
+      "name": "Carly Chaikin",
+      "role": "Darlene Alderson",
+      "image": "/src/assets/characters/Carly_Chaikin.jpg",
+      "social": {
+        "twitter": "https://twitter.com/carlychaikin",
+        "facebook": "https://www.facebook.com/profile.php?id=100044685215916",
+        "instagram": "https://www.instagram.com/carlychaikin"
+      }
+    },
+    {
+      "name": "Portia Doubleday",
+      "role": "Angela Moss",
+      "image": "/src/assets/characters/Portia_Doubleday.jpg",
+      "social": {
+        "twitter": "https://twitter.com/PortiaDd",
+        "facebook": null,
+        "instagram": "https://www.instagram.com/portiadd"
+      }
+    },
+    {
+      "name": "Martin Wallström",
+      "role": "Tyrell Wellick",
+      "image": "/src/assets/characters/Martin_Wallstrom.jpg",
+      "social": {
+        "twitter": "https://twitter.com/martinwallstrom",
+        "facebook": "https://www.facebook.com/profile.php?id=100071266789363",
+        "instagram": "https://www.instagram.com/itsmartinwallstrom"
+      }
+    },
+    {
+      "name": "Christian Slater",
+      "role": "Mr Robot",
+      "image": "/src/assets/characters/Christian_Slater.jpg",
+      "social": {
+        "twitter": "https://twitter.com/ChristianSlater",
+        "facebook": "https://www.facebook.com/officialchristianslater",
+        "instagram": "https://www.instagram.com/realchristianslater"
+      }
+    },
+    {
+      "name": "Michael Cristofer",
+      "role": "Phillip Price",
+      "image": "/src/assets/characters/Michael_Cristofer.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    {
+      "name": "Stephanie Corneliussen",
+      "role": "Joana Wellick",
+      "image": "/src/assets/characters/Stephanie_Corneliussen.jpg",
+      "social": {
+        "twitter": "https://twitter.com/Stecorneliussen",
+        "facebook": "https://www.facebook.com/CorneliussenS",
+        "instagram": "https://www.instagram.com/stephaniecorneliussen"
+      }
+    },
+    {
+      "name": "Grace Gummer",
+      "role": "Dominique DiPierro",
+      "image": "/src/assets/characters/Grace_Gummer.jpg",
+      "social": {
+        "twitter": "https://twitter.com/gracegummer",
+        "facebook": null,
+        "instagram": "https://www.instagram.com/gracegummer_"
+      }
+    },
+    {
+      "name": "BD Wong",
+      "role": "White Rose",
+      "image": "/src/assets/characters/BD_Wong.jpg",
+      "social": {
+        "twitter": "https://twitter.com/wongbd",
+        "facebook": null,
+        "instagram": "https://www.instagram.com/wongbd"
+      }
+    },
+    {
+      "name": "Ashlie Atkinson",
+      "role": "Janice",
+      "image": "/src/assets/characters/Ashlie_Atkinson.jpg",
+      "social": {
+        "twitter": "https://twitter.com/ashlieatkinson",
+        "facebook": "https://www.facebook.com/ashlie.atkinson.16",
+        "instagram": "https://www.instagram.com/ashlie_atkinson"
+      }
+    },
+    {
+      "name": "Elliot Villar",
+      "role": "Fernando Vera",
+      "image": "/src/assets/characters/Elliot_Villar.jpg",
+      "social": {
+        "twitter": "https://twitter.com/elliot_villar",
+        "facebook": null,
+        "instagram": "https://www.instagram.com/elliotvillar"
+      }
+    }
+  ],
+  "music": {
+    "componser": "Mac Quayle",
+    "OST": "https://open.spotify.com/playlist/15ZxXC9UR2jy1tlsKOSoO6?si=9afb40cf5bdf44a9"
+  },
+  "country": "Estados Unidos",
+  "originalLanguage": "Inglés",
+  "episodes": {
+    "total": 45,
+    "list": "http://localhost:3000/episodes",
+    "listSource": "https://en.wikipedia.org/wiki/List_of_Mr._Robot_episodes"
+  },
+  "release": {
+    "date": "24 de Junio 2015",
+    "network": "USA Network"
+  }
+}

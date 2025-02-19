@@ -1,0 +1,52 @@
+---
+import { Image } from "astro:assets";
+
+import poster from "../assets/mr-robot-poster.jpg";
+import details from "../data/details.json";
+
+const {
+  country,
+  created_by,
+  description,
+  episodes,
+  genres,
+  music,
+  originalLanguage,
+  release,
+} = details;
+---
+
+<div
+  class="flex flex-col md:flex-row justify-center md:justify-evenly items-center bg-gradient-to-t from-[#C60323] via-[#4D000D] to-[#4C000C]"
+>
+  <Image src={poster} alt="Poster Mr. Robot" class="w-6/12 md:w-xs" />
+
+  <div class="px-3 mb-2 space-y-1.5">
+    <p class="font-bold md:w-xl">{description}</p>
+    <p class="font-bold">
+      Dirigido Por: <span class="font-normal text-red-300">{created_by}</span>
+    </p>
+    <p class="font-bold">
+      País: <span class="font-normal text-red-300">{country}</span>
+    </p>
+    <p class="font-bold">
+      Total de episodios: <span class="font-normal text-red-300"
+        >{episodes.total}</span
+      >
+    </p>
+    <p class="font-bold">
+      Generos: <span class="font-normal text-red-300">{genres.join(", ")}</span>
+    </p>
+    <p class="font-bold">Musica: <a href={music.OST}>{music.componser}</a></p>
+    <p class="font-bold">
+      Estreno: <span class="font-normal text-red-300"
+        >{release.date} en la cadena {release.network}</span
+      >
+    </p>
+    <p class="font-bold">
+      Lenguaje Original: <span class="font-normal text-red-300"
+        >{originalLanguage}</span
+      >
+    </p>
+  </div>
+</div>
