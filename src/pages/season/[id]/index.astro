@@ -1,0 +1,40 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import type { GetStaticPaths } from "astro";
+import overviewSeasons from "../../../data/episodes.json";
+import EpisodeCard from "../../../components/EpisodeCard.astro";
+
+export const getStaticPaths = (() => {
+  const { all, overview, ...allSeasons } = overviewSeasons;
+  const { total, ...seasons } = overviewSeasons.overview;
+
+  return Object.values(seasons).map((season) => {
+    return {
+      params: {
+        id: season.season_id.toString(),
+      },
+      props: {
+        data: Object.values(allSeasons)[season.season_id - 1],
+      },
+    };
+  });
+}) satisfies GetStaticPaths;
+
+const { id } = Astro.params;
+const { data } = Astro.props;
+---
+
+<Layout>
+  <h2 class="text-red-500 border-b border-b-red-500 mb-5 font-bold text-3xl md:text-5xl">Temporada {id}</h2>
+
+  <div class="px-2">
+
+    {
+      data.map(episode => (
+        <EpisodeCard no_all={episode.no_all.toString()}, title={episode.title}, preview={episode.preview} />
+      ))
+    }
+    </div>
+
+  <pre>{JSON.stringify(data, null, 2)}</pre>
+</Layout>

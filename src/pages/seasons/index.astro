@@ -1,7 +1,24 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import PosterCard from "../../components/PosterCard.astro";
+
+import overviewSeasons from "../../data/episodes.json";
+
+const { total, ...seasons } = overviewSeasons.overview;
 ---
 
 <Layout>
-  <h1>hola seasons</h1>
+  <div class="flex flex-wrap gap-3 justify-center items-center">
+    {
+      Object.values(seasons).map((season) => (
+        <PosterCard
+          season_id={season.season_id}
+          episodes={season.episodes}
+          image={season.image}
+          first_aired={season.first_aired}
+          last_aired={season.last_aired}
+        />
+      ))
+    }
+  </div>
 </Layout>

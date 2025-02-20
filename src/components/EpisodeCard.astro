@@ -1,0 +1,24 @@
+---
+interface Props {
+  no_all: string;
+  title: string;
+  preview: string;
+}
+
+const { no_all, title, preview } = Astro.props;
+---
+
+<div class="flex justify-evenly items-center my-5 gap-3">
+  <img src={preview} alt={`Poster ${title}`} class="w-36 h-full md:w-xs" />
+
+  <div class="flex-1 flex flex-col items-start justify-center">
+    <p class="text-red-300">#{no_all}</p>
+    <h3 class="text-red-500 font-bold md:text-3xl">{title}</h3>
+    <!-- TODO: Abrir un modal al seleccionar el botón con el vídeo de la serie -->
+    <a
+      href="#"
+      class="text-red-500 border font-bold border-red-500 p-2 rounded-md hover:bg-red-500 hover:text-black"
+      >Ver Capítulo</a
+    >
+  </div>
+</div>

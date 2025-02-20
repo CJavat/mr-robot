@@ -1,0 +1,24 @@
+---
+interface Props {
+  season_id: number;
+  episodes: number;
+  image: string;
+  first_aired: string;
+  last_aired: string;
+}
+
+const { episodes, season_id, image } = Astro.props;
+---
+
+<!-- TODO: Agregar el link -->
+<a href={`/season/${season_id}`} class="md:hover:scale-110 md:transition-all">
+  <img
+    src={image}
+    alt={`Poster Temporada ${season_id}`}
+    class="w-36 h-full md:w-xs"
+  />
+  <h3 class="text-red-500 font-bold mt-1 md:text-2xl">
+    Temporada {season_id}
+  </h3>
+  <p class="text-red-300">{episodes} Episodios</p>
+</a>
