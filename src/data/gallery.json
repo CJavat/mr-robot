@@ -1,46 +1,46 @@
 [
   {
-    "src": "/src/assets/gallery/dark_army_color.jpeg",
+    "src": "/gallery/dark_army_color.jpeg",
     "alt": "dark_army_color"
   },
   {
-    "src": "/src/assets/gallery/i_want_to_save_the_world.jpeg",
+    "src": "/gallery/i_want_to_save_the_world.jpeg",
     "alt": "i_want_to_save_the_world"
   },
-  { "src": "/src/assets/gallery/leve_me_here.jpeg", "alt": "leve_me_here" },
-  { "src": "/src/assets/gallery/eliot_split.jpeg", "alt": "eliot_split" },
-  { "src": "/src/assets/gallery/mr_robot_shirt.jpeg", "alt": "mr_robot_shirt" },
+  { "src": "/gallery/leve_me_here.jpeg", "alt": "leve_me_here" },
+  { "src": "/gallery/eliot_split.jpeg", "alt": "eliot_split" },
+  { "src": "/gallery/mr_robot_shirt.jpeg", "alt": "mr_robot_shirt" },
   {
-    "src": "/src/assets/gallery/eat_sleep_HACK_repeat.jpeg",
+    "src": "/gallery/eat_sleep_HACK_repeat.jpeg",
     "alt": "eat_sleep_HACK_repeat"
   },
-  { "src": "/src/assets/gallery/hello_friend.jpeg", "alt": "hello_friend" },
-  { "src": "/src/assets/gallery/Mind awake.jpeg", "alt": "Mind awake" },
+  { "src": "/gallery/hello_friend.jpeg", "alt": "hello_friend" },
+  { "src": "/gallery/Mind awake.jpeg", "alt": "Mind awake" },
   {
-    "src": "/src/assets/gallery/are_you_one_or_zero.jpeg",
+    "src": "/gallery/are_you_one_or_zero.jpeg",
     "alt": "are_you_one_or_zero"
   },
-  { "src": "/src/assets/gallery/fuck_society.jpeg", "alt": "fuck_society" },
+  { "src": "/gallery/fuck_society.jpeg", "alt": "fuck_society" },
   {
-    "src": "/src/assets/gallery/control_is_an_illusion.jpeg",
+    "src": "/gallery/control_is_an_illusion.jpeg",
     "alt": "control_is_an_illusion"
   },
   {
-    "src": "/src/assets/gallery/MR_ ROBOT_Black_Zoom.jpeg",
+    "src": "/gallery/MR_ ROBOT_Black_Zoom.jpeg",
     "alt": "MR_ ROBOT_Black_Zoom"
   },
-  { "src": "/src/assets/gallery/Mr_ Robot_sad.jpeg", "alt": "Mr_ Robot_sad" },
+  { "src": "/gallery/Mr_ Robot_sad.jpeg", "alt": "Mr_ Robot_sad" },
   {
-    "src": "/src/assets/gallery/MR_ ROBOT_White_Zoom.jpeg",
+    "src": "/gallery/MR_ ROBOT_White_Zoom.jpeg",
     "alt": "MR_ ROBOT_White_Zoom"
   },
-  { "src": "/src/assets/gallery/hes_gone.jpeg", "alt": "hes_gone" },
+  { "src": "/gallery/hes_gone.jpeg", "alt": "hes_gone" },
   {
-    "src": "/src/assets/gallery/dark_army_black.jpeg",
+    "src": "/gallery/dark_army_black.jpeg",
     "alt": "dark_army_black"
   },
   {
-    "src": "/src/assets/gallery/WE_ARE_FSOCIETY.jpeg",
+    "src": "/gallery/WE_ARE_FSOCIETY.jpeg",
     "alt": "WE_ARE_FSOCIETY"
   }
 ]

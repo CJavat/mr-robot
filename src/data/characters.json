@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Rami Malek",
       "role": "Eliot Alderson",
-      "image": "/src/assets/characters/Rami_Malek.jpg",
+      "image": "/characters/Rami_Malek.jpg",
       "social": {
         "twitter": "https://twitter.com/ItsRamiMalek",
         "facebook": "RamiMalek",
@@ -16,7 +16,7 @@
       "id": 2,
       "name": "Carly Chaikin",
       "role": "Darlene Alderson",
-      "image": "/src/assets/characters/Carly_Chaikin.jpg",
+      "image": "/characters/Carly_Chaikin.jpg",
       "social": {
         "twitter": "https://twitter.com/carlychaikin",
         "facebook": "https://www.facebook.com/profile.php?id=100044685215916",
@@ -28,7 +28,7 @@
       "id": 3,
       "name": "Portia Doubleday",
       "role": "Angela Moss",
-      "image": "/src/assets/characters/Portia_Doubleday.jpg",
+      "image": "/characters/Portia_Doubleday.jpg",
       "social": {
         "twitter": "https://twitter.com/PortiaDd",
         "facebook": null,
@@ -40,7 +40,7 @@
       "id": 4,
       "name": "Martin Wallström",
       "role": "Tyrell Wellick",
-      "image": "/src/assets/characters/Martin_Wallstrom.jpg",
+      "image": "/characters/Martin_Wallstrom.jpg",
       "social": {
         "twitter": "https://twitter.com/martinwallstrom",
         "facebook": "https://www.facebook.com/profile.php?id=100071266789363",
@@ -52,7 +52,7 @@
       "id": 5,
       "name": "Christian Slater",
       "role": "Mr Robot",
-      "image": "/src/assets/characters/Christian_Slater.jpg",
+      "image": "/characters/Christian_Slater.jpg",
       "social": {
         "twitter": "https://twitter.com/ChristianSlater",
         "facebook": "https://www.facebook.com/officialchristianslater",
@@ -64,7 +64,7 @@
       "id": 6,
       "name": "Michael Cristofer",
       "role": "Phillip Price",
-      "image": "/src/assets/characters/Michael_Cristofer.jpg",
+      "image": "/characters/Michael_Cristofer.jpg",
       "social": {
         "twitter": null,
         "facebook": null,
@@ -76,7 +76,7 @@
       "id": 7,
       "name": "Stephanie Corneliussen",
       "role": "Joana Wellick",
-      "image": "/src/assets/characters/Stephanie_Corneliussen.jpg",
+      "image": "/characters/Stephanie_Corneliussen.jpg",
       "social": {
         "twitter": "https://twitter.com/Stecorneliussen",
         "facebook": "https://www.facebook.com/CorneliussenS",
@@ -88,7 +88,7 @@
       "id": 8,
       "name": "Grace Gummer",
       "role": "Dominique DiPierro",
-      "image": "/src/assets/characters/Grace_Gummer.jpg",
+      "image": "/characters/Grace_Gummer.jpg",
       "social": {
         "twitter": "https://twitter.com/gracegummer",
         "facebook": null,
@@ -100,7 +100,7 @@
       "id": 9,
       "name": "BD Wong",
       "role": "White Rose",
-      "image": "/src/assets/characters/BD_Wong.jpg",
+      "image": "/characters/BD_Wong.jpg",
       "social": {
         "twitter": "https://twitter.com/wongbd",
         "facebook": null,
@@ -112,7 +112,7 @@
       "id": 10,
       "name": "Ashlie Atkinson",
       "role": "Janice",
-      "image": "/src/assets/characters/Ashlie_Atkinson.jpg",
+      "image": "/characters/Ashlie_Atkinson.jpg",
       "social": {
         "twitter": "https://twitter.com/ashlieatkinson",
         "facebook": "https://www.facebook.com/ashlie.atkinson.16",
@@ -124,7 +124,7 @@
       "id": 11,
       "name": "Elliot Villar",
       "role": "Fernando Vera",
-      "image": "/src/assets/characters/Elliot_Villar.jpg",
+      "image": "/characters/Elliot_Villar.jpg",
       "social": {
         "twitter": "https://twitter.com/elliot_villar",
         "facebook": null,
@@ -138,7 +138,7 @@
       "id": 12,
       "name": "Gloria Reuben",
       "role": "Krista Gordon",
-      "image": "/src/assets/characters/Gloria_Reuben.jpg",
+      "image": "/characters/Gloria_Reuben.jpg",
       "social": {
         "twitter": "https://twitter.com/Glo_Reuben",
         "facebook": "https://www.facebook.com/gloreuben",
@@ -150,7 +150,7 @@
       "id": 13,
       "name": "Michel Gill",
       "role": "Gideon Goddard",
-      "image": "/src/assets/characters/Michael_Gill.jpg",
+      "image": "/characters/Michael_Gill.jpg",
       "social": {
         "twitter": "https://twitter.com/michelgill",
         "facebook": null,
@@ -162,7 +162,7 @@
       "id": 14,
       "name": "Ben Rappaport",
       "role": "Ollie Parker",
-      "image": "/src/assets/characters/Ben_Rappaport.jpg",
+      "image": "/characters/Ben_Rappaport.jpg",
       "social": {
         "twitter": "https://twitter.com/Ben_Rappaport",
         "facebook": null,
@@ -174,7 +174,7 @@
       "id": 15,
       "name": "Frankie Shaw",
       "role": "Shayla Nico",
-      "image": "/src/assets/characters/Frankie_Shaw.jpg",
+      "image": "/characters/Frankie_Shaw.jpg",
       "social": {
         "twitter": null,
         "facebook": "https://www.facebook.com/frankieshawisag",
@@ -186,7 +186,7 @@
       "id": 16,
       "name": "Ron Cephas Jones",
       "role": "Leslie Romero",
-      "image": "/src/assets/characters/Ron_Cephas_Jones.jpg",
+      "image": "/characters/Ron_Cephas_Jones.jpg",
       "social": {
         "twitter": null,
         "facebook": "https://www.facebook.com/roncephas.jones",
@@ -198,7 +198,7 @@
       "id": 17,
       "name": "Sunita Mani",
       "role": "Shama 'Trenton' Biswas",
-      "image": "/src/assets/characters/Sunita_Mani.jpg",
+      "image": "/characters/Sunita_Mani.jpg",
       "social": {
         "twitter": "https://twitter.com/sunita_mani",
         "facebook": null,
@@ -210,7 +210,7 @@
       "id": 18,
       "name": "Azhar Khan",
       "role": "Sunil 'Mobley' Markesh",
-      "image": "/src/assets/characters/Azhar_Khan.jpg",
+      "image": "/characters/Azhar_Khan.jpg",
       "social": {
         "twitter": "https://twitter.com/azharkhan_31",
         "facebook": null,
