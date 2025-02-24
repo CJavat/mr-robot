@@ -1,6 +1,7 @@
 ---
-import Layout from "../../../layouts/Layout.astro";
 import type { GetStaticPaths } from "astro";
+
+import Layout from "../../../layouts/Layout.astro";
 import overviewSeasons from "../../../data/episodes.json";
 import EpisodeCard from "../../../components/EpisodeCard.astro";
 
@@ -31,10 +32,8 @@ const { data } = Astro.props;
 
     {
       data.map(episode => (
-        <EpisodeCard no_all={episode.no_all.toString()}, title={episode.title}, preview={episode.preview} />
+        <EpisodeCard no_all={episode.no_all.toString()}, title={episode.title}, preview={episode.preview} url={episode.url} />
       ))
     }
     </div>
-
-  <pre>{JSON.stringify(data, null, 2)}</pre>
 </Layout>
